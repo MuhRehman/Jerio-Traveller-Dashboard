@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+    <script src="js/nav.js"></script>
+  
+
+    <title>Trip Jero</title>
+  </head>
+  <body>
+    
+<!-- -----------------------------navbar------------------ -->
+<nav class="main-menu">
+   <d class="d-flex" > 
+      <a  class="navbar-brand sidebar-logo m-3" href="">
+         <img src="img/dashboard/LOGO-TRIP.png" alt="">
+      </a>
+      <a  class="navbar-brand m-3" href="">
+         <img src="img/dashboard/logo/logos.png" alt="">
+      </a>
+    
+  </d>
+   <ul>
+  
+     
+       <li>
+           <a href="">
+            <i class="fa fa-home fa-custom" aria-hidden="true"></i>
+
+               <span class="nav-text">
+                  Home
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="">
+            <i class="fa fa-custom fa-location-arrow" aria-hidden="true"></i>
+
+
+               <span class="nav-text">
+                  Post Trip
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="">
+            <i class="fa fa-custom fa-check-circle" aria-hidden="true"></i>
+
+
+
+               <span class="nav-text">
+                  My Bookings
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="">
+            
+
+            <i class="fa fa-custom fa-bus" aria-hidden="true"></i>
+
+
+               <span class="nav-text">
+                  My Trips
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="#">
+            
+
+            <i class="fa fa-custom fa-plane" aria-hidden="true"></i>
+
+
+               <span class="nav-text">
+                  Boost Packages
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="#">
+            
+
+            <i class="fa fa-custom fa-arrow-right" aria-hidden="true"></i>
+
+
+               <span class="nav-text">
+                  Promo
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="#">
+            
+
+            <i class="fa fa-custom  fa-bar-chart" aria-hidden="true"></i>
+
+
+               <span class="nav-text">
+                  Reports
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="#">
+            
+
+            <i class="fa  fa-custom fa-info-circle" aria-hidden="true"></i>
+
+
+
+               <span class="nav-text">
+                 Drafts
+               </span>
+           </a>
+         
+       </li>
+       <li>
+           <a href="#">
+            
+
+            <i class="fa fa-custom fa-building-o" aria-hidden="true"></i>
+
+
+
+               <span class="nav-text">
+                  Reports
+               </span>
+           </a>
+         
+       </li>
+       <li class="logout-btn">
+           <a href="#">
+            <i class="fa fa-custom text-danger fa-sign-out" aria-hidden="true"></i>
+
+
+       
+
+
+
+               <span class="nav-text">
+                Log Out
+               </span>
+           </a>
+         
+       </li>
+
+   </ul>
+
+
+</nav>
+<div id="wrapper">
+   <nav class="navbar navbar-light navbar-light-custom ">
+   <div class="navbar navbar-light  ">
+      <a class="navbar-brand navbar-brand-custom ml-5">Trending Destinations <i class="fa fa-chevron-down" aria-hidden="true"></i>
+       </a>
+      <ul class="d-flex top-bar-item">
+         
+         <li>Trip Tital</li>
+         <div class="divider"></div>
+         <li>Trip Tital</li>
+         <div class="divider"></div>
+         <li>Trip Tital</li>
+         <div class="divider"></div>
+         <li>Trip Tital</li>
+         <div class="divider"></div>
+         <li>Trip Tital</li>
+         <div class="divider"></div>
+         <li>Trip Tital</li>
+      </ul>
+      </div>
+    
+<!--       
+        <a class="nav-link text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="fa fa-bell"></i>
+             </a>  -->
+             <!-- Single button -->
+      <div class="btn-group  ml-auto mr-5 top-head-dropdown"> 
+        <a href="#" class="notification " class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fa fa-bell-o" aria-hidden="true"></i>
+          <span class="badge pulse-button ">3</span>
+        </a>
+            <!-- <a href="#" class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+             <i class="fa fa-bell-o" aria-hidden="true"></i>
+             <span class="badge pulse-button">3</span>
+           </a> -->
+           <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-right">
+             <div class="notification-header">
+              <div class="btn  heading-notification">
+                <span> Notification</span>
+              </div>
+              <div class="heading-icon">
+                <img src="img/dashboard/png-icons/pen.png" alt="">
+              </div>
+            </div>
+            <div class="scroll-area" id="style-1">
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+             <li >
+            <img src="img/dashboard/png-icons/online-icon.png" alt="">
+            <p>You Have New Booking 
+              of trip Testing Boost</p>
+             </li>
+            </div>
+             <div class="notification-footer">
+              <p> <span>5</span> new Notifications</p>
+             </div>
+            </div>
+  
+     
+      <div class="media profile dropdown">
+         <img src="img/dashboard/logo/profile.png" class="rounded-circle mr-3" alt="Sample Image">
+         <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+             <span class="mt-4">Jhon Carter </span>
+             <p class=""><span class="verified">Verified </span><i class="fa fa-chevron-down ml-1" aria-hidden="true"></i>
+             </p>
+         </div>
+         <div class="dropdown-menu dropdown-menu-styling " aria-labelledby="dropdownMenuButton">
+          <div class="profile-image-area text-center">
+          
+          
+          <img src="img/dashboard/Profile-images/profile.png" alt="">
+           
+          <div class="username-bar">
+            Client Full Name 
+          </div>
+          
+          </div>
+      
+           <div class="profile-footer mt-5">
+            <div class="profile-icon">
+              <img src="img/dashboard/Profile-images/person-blue.png" alt="">
+            </div>
+            
+            <div class="profile-icon2">
+              <img src="img/dashboard/Profile-images/red.png" alt="">
+            </div>
+           </div>
+          </div>
+     </div>
+     
+    
+    </nav>
+  <!-- /#sidebar-wrapper -->
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+     <div class="container-fluid xyz">
+  
+     <div class="row">
+      <div class="col-md-12">
+    <div class="custom-row">
+        <div class="statboxd ">
+         <div class="Deals-cards">
+            <div class="featured-tag12">
+              <span class="left-corner12" style="z-index: -1;"></span>
+              <span class="right-corner12"></span>
+              <div class="featured12">
+                <span>Upcoming Trips</span>
+              </div>
+            </div>
+            <div class="featured-tag2">
+              <span class="left-corner2" style="z-index: -1;"></span>
+              <span class="right-corner2"></span>
+              <div class="featured2">
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div class="featured-tag4">
+              <span class="left-corner4" style="z-index: -1;"></span>
+              <span class="right-corner4"></span>
+              <div class="featured4 d-flex justify-content-between ">
+                <p class="pl-2 pt-1"> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  1 Day</p>
+                <p class="pl-2 pt-1"> Rs <strong>3250/-</strong></p>
+                <!-- <p class="pr-2 pt-1 per-person-btn">Per Person</p> -->
+                <button type="button" class="btn pt-1">
+                  <span class="badge btn-yellow">per person</span>
+                </button>
+              </div>
+            </div>
+            <div class="featured-tag3">
+              <span class="left-corner3" style="z-index: -1;"></span>
+              <span class="right-corner3"></span>
+              <div class="featured3 featured-bar-text  d-flex justify-content-between">
+                <p class="pl-2 pt-2"> <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                   14-12-2020</p>
+                <p class="pl-2 pt-2"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                   From Karachi</p>
+                <p class="pr-2 pt-2"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  To Lahore</p>
+              </div>
+            </div>
+            
+              <div class="img">
+                <a href="#" class="">
+                    <img src="img/dashboard/cards/cards1.png" class="media-object media-object-image-second rounded-top rounded m-2" alt="Sample Image">
+              
+                  </a>
+             
+                  <p class="deals-text ml-3 mr-3"></p>
+              
+              </div>
+              <!-- <div class="ml-2 card-bar-top text-center">
+             <div class=" d-flex">
+               <div class="btn">Per Person</div>
+               <div class="btn">Per Person</div>
+               <div class="btn">Per Person</div>
+             </div>
+            </div>
+              <div class="ml-2 card-bar text-center">
+             <div class=" d-flex">
+               <div class="btn">Per Person</div>
+               <div class="btn">Per Person</div>
+               <div class="btn">Per Person</div>
+             </div>
+            </div> -->
+              </div>
+           
+        </div>
+        <div class="statboxd ">
+         <div class="Deals-cards">
+            <div class="featured-tag12">
+              <span class="left-corner12" style="z-index: -1;"></span>
+              <span class="right-corner12"></span>
+              <div class="featured12">
+                <span>Upcoming Trips</span>
+              </div>
+            </div>
+            <div class="featured-tag2">
+              <span class="left-corner2" style="z-index: -1;"></span>
+              <span class="right-corner2"></span>
+              <div class="featured2">
+                <p>10% OFF</p>
+              </div>
+            </div>
+            <div class="featured-tag4">
+              <span class="left-corner4" style="z-index: -1;"></span>
+              <span class="right-corner4"></span>
+              <div class="featured4 d-flex justify-content-between ">
+                <p class="pl-2 pt-1"> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  1 Day</p>
+                <p class="pl-2 pt-1"> Rs <strong>3250/-</strong></p>
+                <!-- <p class="pr-2 pt-1 per-person-btn">Per Person</p> -->
+                <button type="button" class="btn pt-1">
+                  <span class="badge btn-yellow">per person</span>
+                </button>
+              </div>
+            </div>
+            <div class="featured-tag3">
+              <span class="left-corner3" style="z-index: -1;"></span>
+              <span class="right-corner3"></span>
+              <div class="featured3 featured-bar-text  d-flex justify-content-between">
+                <p class="pl-2 pt-2"> <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                   14-12-2020</p>
+                <p class="pl-2 pt-2"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                   From Karachi</p>
+                <p class="pr-2 pt-2"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  To Lahore</p>
+              </div>
+            </div>
+            
+              <div class="img">
+                <a href="#" class="">
+                    <img src="img/dashboard/cards/cards1.png" class="media-object media-object-image-second rounded-top rounded m-2" alt="Sample Image">
+              
+                  </a>
+             
+                  <p class="deals-text ml-3 mr-3"></p>
+              
+              </div>
+   
+              </div>
+           
+        </div>
+        <!-- <div class="statbox statHDD">
+          <div class="container-custom">
+             <span class="statReadings">How to Measure Sale Progress</span> -->
+          <!-- <canvas id="myChart" width="200" height="100"></canvas> -->
+          <!-- </div>
+        
+          <span class="labelReading">HDD</span>
+        </div> -->
+        <div class="statbox statHDD mt-2 p-3">
+           <h6>How to Post a Trip</h6>
+          <div class="box-container text-center p-1 m-2">
+        <img src="img/dashboard/logo/download.png" alt="">
+          </div>
+          <!-- <span class="statReading">93.023</span> -->
+          <div class="box-bottom1 d-flex justify-content-between">
+            
+             <div>
+              <h3>3520/-</h3>
+              <h6>Per Person</h6>
+             </div>
+             <div class="arrow-div">
+           <img src="img/dashboard/logo/arrow.png" alt="">
+             </div>
+
+          </div>
+        </div>
+        <div class="statbox statCDD mt-2 p-3">
+           <h6>How to Measure Sale Progress</h6>
+          <div class="box-container text-center p-1 m-2">
+        <img src="img/dashboard/logo/download.png" alt="">
+          </div>
+          <!-- <span class="statReading">93.023</span> -->
+          <div class="box-bottom1 d-flex justify-content-between">
+            
+             <div>
+              <h3>3520/-</h3>
+              <h6>Per Person</h6>
+             </div>
+             <div class="arrow-div">
+           <img src="img/dashboard/logo/arrow.png" alt="">
+             </div>
+
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+     <div class="Portfolio-Performance-bar   justify-content-between">
+          <!-- <div class="bage">
+            <h5>Portfolio Performance</h5>
+          </div> -->
+          <h2> <span class="badge badge-secondary" style="margin-top: -62px;">Portfolio Performance</span></h2>
+          <div class="media skills-profile">
+            <img src="img/dashboard/objects/outline-beenhere-24px.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">Total Bookings</strong>
+                <p class=""><span class="verifieded">17 </span>
+                </p>
+            </div>
+           
+        </div>
+          <div class="media skills-eyes">
+            <img src="img/dashboard/objects/eyes.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">Total Viewed Trips</strong>
+                <p class=""><span class="verifieded">210 </span>
+                </p>
+            </div>
+           
+        </div>
+          <div class="media skills-buss">
+            <img src="img/dashboard/objects/bus.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">Total Posted Trips</strong>
+                <p class=""><span class="verifieded">12 </span>
+                </p>
+            </div>
+           
+        </div>
+          <div class="media skills-busstime">
+            <img src="img/dashboard/objects/busss.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">Scheduled Trips</strong>
+                <p class=""><span class="verifieded">04 </span>
+                </p>
+            </div>
+           
+        </div>
+          <div class="media skills-progress">
+            <img src="img/dashboard/objects/ggg.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">In-Progress Trips</strong>
+                <p class=""><span class="verifieded">07 </span>
+                </p>
+            </div>
+           
+        </div>
+          <div class="media skills-time">
+            <img src="img/dashboard/objects/ttt.png" class="rounded-circle mr-3" alt="Sample Image">
+            <div class="media-body" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+                <strong class="mt-4">On Hold Trips</strong>
+                <p class=""><span class="verifieded">09 </span>
+                </p>
+            </div>
+           
+        </div>
+     </div>
+     </div>
+
+<div class="table-area">
+   <div class="row justify-content-between">
+      <div class="col-12 col-md-6 col-md-2 ">
+         <h5>Sale Progress</h5>
+         <!-- <div data-chart></div> -->
+      </div>
+      <div class="col-12 col-md-6 col-sm-12 col-xs-12">
+         
+         <div class="inner-table">
+         <h4 class="text-dark p-3">Recent Viewed Trips by Travelers</h4>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Stage</th>
+                <th scope="col">Name of Client</th>
+                <th scope="col">Trip Tital</th>
+                <th scope="col">Time</th>
+                <th scope="col">Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa red fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  <span class="badge badge-pill badge-pill-custom badge-primary">New</span></td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa yellow fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  </td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa green fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  <span class="badge badge-pill badge-pill-custom badge-primary">New</span></td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa orange fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  </td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa blue fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  </td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <div class="dot"> <i class="fa black fa-circle" aria-hidden="true"></i>
+                  </div>
+                </th>
+                <td>Username or ID</td>
+                <td class="mr-2 ml-2">Full Trip Name ..  </td>
+                <td class="time-text">15:00 PM</td>
+                <td>14-12-2020</td>
+              </tr>
+             
+            </tbody>
+          </table>     
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<!-- jQuery -->
+
+
+<!-- -----------------------------navbar------------------ -->
+<!-- Footer -->
+<footer class="page-footer font-small bg-dardk pt-1">
+
+
+
+   <!-- Footer Links -->
+   <div class="container-fluid text-center text-md-left mt-5">
+ 
+     <!-- Grid row -->
+     <div class="row mt-3">
+ 
+       <!-- Grid column -->
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+ 
+
+         
+   
+        
+ 
+       </div>
+       <!-- Grid column -->
+ 
+       <!-- Grid column -->
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+ 
+  
+  
+ 
+       </div>
+       <!-- Grid column -->
+ 
+       <!-- Grid column -->
+       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+ 
+         <!-- Links -->
+         <h6 class="text-uppercase text-white font-weight-bold mt-3">EXTRA LINKS</h6>
+       
+         <a href=""> About Us </a><br>
+         
+        
+         
+       
+         
+       
+         <a href="#!">Contact Us</a><br>
+     
+         <a href="#!">  FAQs </a><br>
+   
+ 
+       </div>
+       <!-- Grid column -->
+ 
+       <!-- Grid column -->
+       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+ 
+         <!-- Links --><h6 class="text-uppercase text-white font-weight-bold mt-3">OPERATOR</h6>
+      
+
+  
+
+         
+     <a href="#!"><img src="img/slider/a1.png" alt=""></a>
+     <a href="#!"><img src="img/slider/a2.png" alt=""></a>
+
+   
+       <div class="social-icons mt-4 ">
+         <ul class="pl-0">
+           <li><a href=""><img src="img/dashboard/icons/twitter.png" alt=""></a></li>
+           <li><a href=""><img src="img/dashboard/icons/snap.png" alt=""></a></li>
+           <li><a href=""><img src="img/dashboard/icons/whats.png" alt=""></a></li>
+           <li><a href=""><img src="img/dashboard/icons/face.png" alt=""></a></li>
+         </ul>
+  
+ 
+         </div>
+ 
+       </div>
+       <!-- Grid column -->
+ 
+     </div>
+     <!-- Grid row -->
+ 
+   </div>
+   <!-- Footer Links -->
+ 
+ 
+ 
+ </footer>
+ <!-- Footer -->
+
+
+
+
+
+
+
+
+    
+
+</body>
+</html>
